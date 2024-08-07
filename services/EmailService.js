@@ -7,8 +7,8 @@ const transporter = nodemailer.createTransport({
     secure: true,
     auth: {
         type: "login",
-        user: process.env.GMAIL_EMAIL,
-        pass: process.env.GMAIL_PASSWORD,
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
     },
 });
 
@@ -17,13 +17,13 @@ class EmailService {
         try {
             const mailOptions = {
                 from: '"Portfolio" <nodeapp53@gmail.com>',
-                to: "kaveen.dinethma@gmail.com",
+                to: "pasindugunasekara882@gmail.com",
                 subject: "Contacted you from your Portfolio",
                 html: emailContent,
             };
 
             const info = await transporter.sendMail(mailOptions);
-            console.log(`OTP code sent to kaveen.dinethma@gmail.com: ${info.response}`);
+            //console.log(`OTP code sent to kaveen.dinethma@gmail.com: ${info.response}`);
         } catch (error) {
             console.error("Error Email code:", error);
         }
@@ -31,3 +31,8 @@ class EmailService {
 }
 
 module.exports = EmailService;
+
+
+
+
+

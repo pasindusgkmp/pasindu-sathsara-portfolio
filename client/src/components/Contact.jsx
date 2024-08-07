@@ -26,18 +26,38 @@ const Contact = () => {
         });
     };
 
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     setLoading(true);
+
+    //     try {
+    //         const res = await axios.post("/api/emails/userMessage", form);
+    //         if (res.status === 200) {
+    //             alert("Message sent successfully");
+    //             formRef.current.reset();
+    //             form.email = "";
+    //             form.name = "";
+    //             form.message = "";
+    //         }
+    //     }
+    //     catch (err) {
+    //         alert("Failed to send message");
+    //     }
+    //     finally {
+    //         setLoading(false);
+    //     }
+    // };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
-
+    
         try {
             const res = await axios.post("/api/emails/userMessage", form);
             if (res.status === 200) {
                 alert("Message sent successfully");
                 formRef.current.reset();
-                form.email = "";
-                form.name = "";
-                form.message = "";
+                setForm({ name: "", email: "", message: "" });
             }
         }
         catch (err) {
@@ -47,6 +67,7 @@ const Contact = () => {
             setLoading(false);
         }
     };
+    
 
     return (
         <div

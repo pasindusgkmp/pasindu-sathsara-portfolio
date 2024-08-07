@@ -250,70 +250,98 @@ export const Other_skill = [
 
 export const youtube = [
     {
-        name: "Java Design Patterns",
+        name: "Introduction in React.js",
         description:
-            "A clear and concise explanation of the most important design patterns in Java, with past examples.",
+            "A clear and concise explanation of the most important design patterns in Java, with past examples. Learn how to set up your React.js project and organize your folder structure for an efficient workflow.",
         tags: [
             {
-                name: "java",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "eclipse",
+                name: "intro",
                 color: "blue-text-gradient",
             },
             {
-                name: "design patterns",
+                name: "folder setup",
                 color: "blue-text-gradient",
             },
         ],
-        image: "https://i.ibb.co/Pm5LZfB/Design-patterns.png",
+        image: "https://i.ibb.co/kMksYjX/mntdataimage.jpg",
         live_link: "https://youtu.be/rLZZPgm3kZA?si=MVDcNErF_02RjETw",
     },
     {
-        name: "Better GitHub README",
+        name: "React JSX",
         description:
-            "A step-by-step guide to creating a better GitHub README for your profile, with examples and design assets.",
+            "A step-by-step guide to creating a better GitHub README for your profile, with examples and design assets. Understand the essential concepts of JSX and how it enhances your React development experience.",
         tags: [
             {
-                name: "github",
+                name: "jsx",
                 color: "blue-text-gradient",
             },
             {
-                name: "readme",
+                name: "intro",
                 color: "blue-text-gradient",
             },
             {
-                name: "scripting",
+                name: "explain",
                 color: "blue-text-gradient ",
             },
         ],
-        image: "https://i.ibb.co/sFq7HJ8/Github-readme.png",
-        live_link: "https://www.youtube.com/watch?v=14G9PeuHgXs",
+        image: "https://i.ibb.co/3rhDKz9/mnstdataimage.png",
+        live_link: "https://youtu.be/H1AC8i2MYvY",
     },
+
     {
-        name: "Learn Unix pThreads",
+        name: "React Components",
         description:
-            "A detailed explanation of Unix pThreads, with examples and a step-by-step guide to creating a simple project.",
+            "A detailed explanation of Unix pThreads, with examples and a step-by-step guide to creating a simple project. Dive into the world of React components and learn how to build reusable UI elements effectively.",
         tags: [
             {
-                name: "linux",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "pThread",
+                name: "components",
                 color: "blue-text-gradient",
             },
             {
-                name: "unix",
+                name: "explain",
                 color: "blue-text-gradient",
             },
             {
-                name: "c",
+                name: "js",
                 color: "green-text-gradient",
             },
         ],
-        image: "https://i.ibb.co/GWXY1wz/pthread.png",
-        live_link: "https://www.youtube.com/watch?v=McufNHgJbSA",
+        image: "https://i.ibb.co/FnPbQFn/mntdcataimage.png",
+        live_link: "https://youtu.be/hLr9X-PV9cE",
     },
+
+    {
+        name: "React Props.Child",
+        description:
+            "A detailed explanation of Unix pThreads, with examples and a step-by-step guide to creating a simple project. Master the use of props.children in React to create flexible and reusable components for your applications.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "props",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "children",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "js",
+                color: "green-text-gradient",
+            },
+        ],
+        image: "https://i.ibb.co/DKXZCf5/mntaadcataimage.png",
+        live_link: "https://youtu.be/0orJ8DNXgnI",
+    },
+
 ];
