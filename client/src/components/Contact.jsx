@@ -53,7 +53,7 @@ const Contact = () => {
         setLoading(true);
     
         try {
-            const res = await axios.post("/api/emails/userMessage", form);
+            const res = await axios.post("https://pasindu-sathsara-portfolio.onrender.com/api/emails/userMessage", form);
             if (res.status === 200) {
                 alert("Message sent successfully");
                 formRef.current.reset();
