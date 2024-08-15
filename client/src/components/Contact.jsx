@@ -31,7 +31,10 @@ const Contact = () => {
         setLoading(true);
 
         try {
-            const res = await axios.post("/api/emails/userMessage", form);
+           const res = await axios.post("https://pasindu-sathsara-portfolio.onrender.com/api/emails/userMessage", form);
+            //const res = await axios.post("/api/emails/userMessage", form);
+           // const res = await axios.post("https://pasindu-sathsara-portfolio.onrender.com", form);
+
             if (res.status === 200) {
                 alert("Message sent successfully");
                 formRef.current.reset();
@@ -57,11 +60,14 @@ const Contact = () => {
     //         if (res.status === 200) {
     //             alert("Message sent successfully");
     //             formRef.current.reset();
-    //             setForm({ name: "", email: "", message: "" });
+    //             form.email = "";
+    //             form.name = "";
+    //             form.message = "";
     //         }
     //     }
     //     catch (err) {
-    //         alert("Failed to send message");
+    //         console.error(err);  // This will log the error in the console
+    //         alert("Failed to send message");  // This will show the alert to the user
     //     }
     //     finally {
     //         setLoading(false);

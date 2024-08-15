@@ -268,7 +268,7 @@ export const youtube = [
             },
         ],
         image: "https://i.ibb.co/kMksYjX/mntdataimage.jpg",
-        live_link: "https://youtu.be/rLZZPgm3kZA?si=MVDcNErF_02RjETw",
+        live_link: "https://youtu.be/WVpo79En5ys",
     },
     {
         name: "React JSX",
@@ -343,5 +343,33 @@ export const youtube = [
         image: "https://i.ibb.co/DKXZCf5/mntaadcataimage.png",
         live_link: "https://youtu.be/0orJ8DNXgnI",
     },
+
+    {
+        name: "import images in react",
+        description:
+            "Learn how to import and display images in React with this step-by-step guide. Master handling images in your React applications for dynamic and engaging user experiences.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "props",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "children",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "js",
+                color: "green-text-gradient",
+            },
+        ],
+        image: "https://i.ibb.co/DKXZCf5/mntaadcataimage.png",
+        live_link: "https://youtu.be/0orJ8DNXgnI",
+    },
+
+    
 
 ];
