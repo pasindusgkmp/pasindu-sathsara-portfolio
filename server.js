@@ -1,20 +1,17 @@
 const express = require("express");
-require("dotenv").config();
-const path = require("path");
-const cors = require("cors"); // Import cors
-
 const app = express();
+const router = require("./routes/emailRoute"); // Adjust the path based on your file structure
 
-// Enable CORS
-app.use(cors({
-    origin: "https://pasindusathsara.netlify.app" // Your frontend URL
-}));
+const cors = require('cors');
+app.use(cors());
 
-const emailRoute = require("./routes/emailRoute"); // Adjust the path to your route file
 
-app.use(express.json());
-app.use("/api/emails", emailRoute);
+app.use(express.json()); // To parse JSON bodies
 
-const port = process.env.PORT || 5000;
+// Use the router
+app.use("/", router); // Make sure this is set up correctly
 
-app.listen(port, () => console.log(`Server running on port ${port}`));
+const PORT = 5000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
