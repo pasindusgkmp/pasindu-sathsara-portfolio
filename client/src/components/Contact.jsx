@@ -28,7 +28,7 @@ const Contact = () => {
         setLoading(true);
 
         try {
-            const res = await axios.post("http://localhost:5000/userMessage", form);
+            const res = await axios.post("https://pasindu-sathsara-portfolio-1.onrender.com/userMessage", form);
 
             if (res.status === 200) {
                 alert("Message sent successfully");
