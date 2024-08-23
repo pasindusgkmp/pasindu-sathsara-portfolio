@@ -45,10 +45,10 @@ function Projects() {
                         live_link="https://github.com/pasindusgkmp/mern-stack-project.git"
                     />
                     <ProjectCard
-                        src="/hangman.png"
-                        title="Hangman Game"
+                        src="/currencyconvertor.png"
+                        title="Currency Convertor"
                         description="This is a simple hangman game which is developed using TypeScript. This project was built to get an good idea about TypeScript and how to use it. Additionally this project uses the words api for the words."
-                        live_link="https://github.com/Scar1109/HangMan-Game--TypeScript"
+                        live_link="https://github.com/pasindusgkmp/currency_web_app.git"
                     />
                 </div>
             </div>
