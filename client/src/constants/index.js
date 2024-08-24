@@ -295,7 +295,7 @@ export const youtube = [
     {
         name: "React Components",
         description:
-            "A detailed explanation of Unix pThreads, with examples and a step-by-step guide to creating a simple project. Dive into the world of React components and learn how to build reusable UI elements effectively.",
+            "A detailed exploration of React components, explaining how to build and reuse UI elements efficiently. Learn the fundamental concepts and best practices for creating dynamic and responsive interfaces.",
         tags: [
             {
                 name: "react",
@@ -321,7 +321,7 @@ export const youtube = [
     {
         name: "React Props.Child",
         description:
-            "A detailed explanation of Unix pThreads, with examples and a step-by-step guide to creating a simple project. Master the use of props.children in React to create flexible and reusable components for your applications.",
+            "Understand the powerful props.children feature in React and learn how to use it for creating flexible and reusable components. This guide provides step-by-step instructions with examples.",
         tags: [
             {
                 name: "react",
