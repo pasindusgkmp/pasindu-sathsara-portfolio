@@ -54,8 +54,8 @@ function HeroContent() {
 
                 <motion.a
                     variants={slideInFromLeft(1)}
-                    href="/PasinduSathsara UOJC.pdf" 
-                    download="PasinduSathsara UOJC.pdf" 
+                    href="/PasinduSathsara UOJCV.pdf" 
+                    download="PasinduSathsara UOJCV.pdf" 
                     className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
                 >
                     Download CV
